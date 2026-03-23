@@ -56,3 +56,21 @@ Systems designed for maximum speed on a small scale may struggle to grow, while 
 
 In real-world system design, most systems aim for a **balanced approach**:
 Start with good performance, then design the architecture so it can scale when needed.
+
+---
+
+## Performance vs Scalability Decision Matrix
+
+**When to Prioritize Performance:**
+- Current user base is stable and well-defined
+- Response time requirements are critical for user experience
+- System operates within predictable load patterns
+- Resource optimization provides immediate business value
+- Single-server or simple distributed architectures are sufficient
+
+**When to Prioritize Scalability:**
+- Rapid user growth is expected or occurring
+- Load patterns are unpredictable or highly variable
+- System must handle traffic spikes and seasonal variations
+- Long-term capacity planning is essential for business growth
+- High availability and fault tolerance are critical requirements
